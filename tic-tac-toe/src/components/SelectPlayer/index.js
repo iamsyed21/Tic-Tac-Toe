@@ -2,11 +2,15 @@ import React from 'react';
 import './index.scss'
 
 
-const SelectPlayer = () =>{
+const SelectPlayer = ({oClick, xClick}) =>{
 return(
-    <>
-    Hello World from Slect player!
-    </>
+    <div>
+    Select X or O!
+    <br/>
+    <button onClick={xClick}>Select X</button>
+    <br/>
+    <button onClick={oClick}>Select O</button>
+    </div>
 )
 }
 

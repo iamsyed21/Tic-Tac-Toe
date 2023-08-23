@@ -36,7 +36,8 @@ const Main = () =>{
     return(
         <div className='gameFrame'>
            {
-            mode===null?<StartGame startGameButton={startGameButton}/> : Turn ? <Board/>: <SelectPlayer/>
+            mode===null?<StartGame startGameButton={startGameButton}/> : Turn ? <Board/>: 
+            <SelectPlayer oClick={oPlayerSelect} xClick={xPlayerSelect}/>
            }
         </div>
     )

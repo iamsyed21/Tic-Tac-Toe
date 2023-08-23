@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 
-const StartGame = (startGameButton) =>{
+const StartGame = ({startGameButton}) =>{
     return(
         <>
        

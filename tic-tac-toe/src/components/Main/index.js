@@ -1,6 +1,8 @@
 import React, {useState,useEffect} from 'react';
 import './index.scss';
 import StartGame from '../StartGame'
+import Board from '../Board'
+import SelectPlayer from '../SelectPlayer'
 
 
 const Main = () =>{
@@ -9,13 +11,13 @@ const Main = () =>{
     const [AI, setAI] = useState(null);
 
 
-    const clickAIBtn = () => {
+    const startGameButton = () => {
         setMode(true)
     }
 
     let changeTurn=()=>{
         if(Turn==='X')
-            setTurn('O')
+            setTurn('O') 
         else
         if(Turn==='O')
             setTurn('X')
@@ -33,7 +35,9 @@ const Main = () =>{
 
     return(
         <div className='gameFrame'>
-            <StartGame/>
+           {
+            mode===null?<StartGame startGameButton={startGameButton}/> : Turn ? <Board/>: <SelectPlayer/>
+           }
         </div>
     )
 }

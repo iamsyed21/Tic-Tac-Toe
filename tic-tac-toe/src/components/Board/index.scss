@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'headings';
+    src: url('../../Resources/fonts/Russo_One.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aifont';
+    src: url('../../Resources/fonts/Alien\ AI.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.boardTileButton{
+    width: 100px;
+    height: 94px;
+    font-size: 52px;
+    font-family: 'headings', sans-serif;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+
+.boardContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    flex-direction: column;
+}

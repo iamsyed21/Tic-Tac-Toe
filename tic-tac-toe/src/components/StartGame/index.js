@@ -1,4 +1,5 @@
 import React from 'react'
+import helloHuman from '../../Resources/pictures/hellohuman.png';
 import './index.scss'
 
 
@@ -6,8 +7,9 @@ const StartGame = ({startGameButton}) =>{
     return(
         <>
        
-        <div>
-            <button onClick={startGameButton}>
+        <div className='startGameContainer'>
+            <img src={helloHuman} className='helloPicture'/>
+            <button onClick={startGameButton} className='startNowButton'>
                 START!
             </button>
         </div>

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'aifont';
+    src: url('../../Resources/fonts/Alien\ AI.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.startGameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    
+    flex-direction: column;
+}
+
+.helloPicture{
+    width: 70%;
+}
+
+
+.startNowButton{
+    width: 260px;
+    margin-top: 4px;
+    cursor:pointer;
+    font-size: 60px;
+    border-radius: 10px;
+    padding: 4px;
+    padding-bottom: 6px;
+    font-family: 'aifont', sans-serif;
+    background-color: aquamarine;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.37);
+}

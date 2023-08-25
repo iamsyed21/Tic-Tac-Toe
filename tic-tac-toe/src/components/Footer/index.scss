@@ -1,0 +1,38 @@
+.footerContainer{
+    background-color: rgba(237, 243, 247, 0.746);
+    color: black;
+    font-weight: 700;
+    padding: 2px;
+    
+}
+
+a{
+    text-decoration: underline;
+    font-size: larger;
+    color: rgb(25, 8, 8);
+    cursor: pointer;
+    
+}
+
+
+@media (max-width: 576px) {
+    .footerContainer{
+        background-color: rgba(237, 243, 247, 0.746);
+        color: black;
+        font-weight: 600;
+        padding: 1px;
+        font-size: 9px;
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 800px) {
+    .footerContainer{
+        background-color: rgba(237, 243, 247, 0.746);
+        color: black;
+        font-weight: 700;
+        padding: 1px;
+        font-size: 10px;
+    }
+}

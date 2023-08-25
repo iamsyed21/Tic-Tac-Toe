@@ -1,14 +1,15 @@
 import React from 'react'
+import './index.scss';
 
 function ScoreCard({Turn,xScore,oScore}) {
     return (
         <div>
-            <button width={'100px'} height={'100px'}>X</button>
-            {/* {Turn === 'X' && <Score>&#8594;</Score>} */}
-            <span turn={Turn} check='X'>{xScore}</span>
-            <button width={'100px'} height={'100px'}>O</button>
-            {/* {Turn === 'O' && <Score>&#8594;</Score>} */}
-            <span turn={Turn} check='O'>{oScore}</span>
+            <button className='outerSpan'>
+            <button className='scoreTiles'>'X' = {xScore}</button>
+            </button>
+            <button className='outerSpan'>
+            <button className='scoreTiles'>'O' = {oScore}</button>
+            </button>
         </div>
     )
 }

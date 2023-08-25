@@ -39,8 +39,7 @@ return(
             }
             {!ShowSquares && 
                 <div>
-                    <button onClick={playAgain}>Play Again</button>
-                    <button clikExit={clikExit}>exit</button>
+                    <button className= 'playAgainButton'onClick={playAgain}>Play Again</button>
                 </div>
             }
         </div>

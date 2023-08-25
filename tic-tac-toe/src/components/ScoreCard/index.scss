@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'headings';
+    src: url('../../Resources/fonts/Russo_One.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.scoreTiles{
+    width: 140px;
+    height: 80px;
+    font-size: 30px;
+    background-color: black;
+    color: #74EE15;
+    font-family: 'heading';
+    font-weight: 600;
+    
+}
+
+.outerSpan{
+    width: 160px;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid rgba(86, 84, 84, 0.269);
+    background-color: rgba(79, 82, 83, 0.154);
+    margin-top: -40px;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .scoreTiles{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+        background-color: black;
+        color: #74EE15;
+        font-family: 'heading';
+        font-weight: 600;
+        
+    }
+    
+    .outerSpan{
+        width: 90px;
+        height: 50px;
+        margin-left: 4px;
+        margin-right: 4px;
+        border: 1px solid rgba(86, 84, 84, 0.269);
+        background-color: rgba(79, 82, 83, 0.154);
+        margin-top: -40px;
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 800px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .scoreTiles{
+        width: 90px;
+        height: 50px;
+        font-size: 20px;
+        background-color: black;
+        color: #74EE15;
+        font-family: 'heading';
+        font-weight: 600;
+        
+    }
+    
+    .outerSpan{
+        width: 90px;
+        height: 50px;
+        margin-left: 4px;
+        margin-right: 12px;
+        border: 1px solid rgba(86, 84, 84, 0);
+        background-color: rgba(79, 82, 83, 0);
+        margin-top: -40px;
+    }
+}
+// Extra-large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+
+}

@@ -47,3 +47,41 @@ h1{
     background-color: aquamarine;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.37);
 }
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    h1{
+        font-family: 'heading', sans-serif;
+        color: brown;
+        font-size: 20px;
+    }
+    
+    .chooseContainer{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .chooseRobot{
+        width: 66%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-top: -24px;
+        margin-bottom: -20px;
+        padding-top: 10px;
+        z-index: 1;
+        align-self: flex-end;
+        align-items: end;
+    }
+    
+}   
+

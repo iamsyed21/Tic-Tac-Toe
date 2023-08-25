@@ -1,6 +1,6 @@
-
 .mainContentBlock{
-    background-color: rgba(240, 248, 255, 0.253);
+    background: url('./Resources/pictures/background.jpg');
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -8,4 +8,15 @@
     justify-content: center;
     align-items: center;
     overflow-wrap: break-word;
+    flex-direction: column;
 }
+
+
+.bottom-element {
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
